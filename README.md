@@ -6,29 +6,41 @@ In the realm of higher education, students often grapple with the daunting task 
 
 ## Solution
 
-**SmartEd** stands as a groundbreaking solution, specifically designed to address the prevalent challenges faced by students in the modern educational landscape. This platform incorporates a suite of features meticulously crafted to enhance the learning experience.
+**SmartEd** stands as a groundbreaking solution, specifically designed to address the prevalent challenges faced by students in the modern `educational` landscape. This platform incorporates a suite of features meticulously crafted to enhance the `learning experience`.
 
 ## Features
 
 ### 1. Video Summarizer
 
-SmartEd's Video Summarizer functionality begins by allowing users to input YouTube links. The platform then intricately interacts with the YouTube server to download video transcripts. Leveraging the PALM API model (text-bison-001), SmartEd intelligently summarizes the content, offering users a concise and coherent overview of lengthy educational videos.
+SmartEd's Video Summarizer functionality begins by allowing users to input YouTube links. The platform then intricately interacts with the `YouTube server` to download `video transcripts`. Leveraging the `PALM API` model `(text-bison-001)`, SmartEd intelligently summarizes the content, offering users a concise and coherent overview of lengthy educational videos.
 
 ### 2. Text to Speech
 
-Beyond traditional text-based summaries, SmartEd goes a step further by providing a Text to Speech feature. This functionality converts the summarized content into speech, catering to diverse learning preferences and enabling users to consume information through auditory means. This is particularly advantageous for users who prefer mobile learning or wish to review content while on the move.
+Beyond traditional text-based summaries, SmartEd goes a step further by providing a Text to Speech feature. This functionality converts the summarized content into speech using the python module `pyttsx3`, catering to diverse learning preferences and enabling users to consume information through auditory means. This is particularly advantageous for users who prefer mobile learning or wish to review content while on the move.
 
 ### 3. Handwritten Notes to Text
 
-SmartEd integrates advanced Convolutional Neural Networks (CNN) and TensorFlow algorithms to tackle the challenge of converting handwritten notes into digital text files. This transformative feature allows users to seamlessly transition their physical notes into a digital format, facilitating easier sharing, editing, and collaboration.
+SmartEd integrates advanced `Convolutional Neural Networks (CNN)` and `TensorFlow` algorithms to tackle the challenge of converting handwritten notes into digital text files. This transformative feature allows users to seamlessly transition their physical notes into a digital format, facilitating easier sharing, editing, and collaboration.
 
 ### 4. PDF Summarizer
 
-Recognizing the ubiquity of PDF documents in academic settings, SmartEd offers a PDF Summarizer. To ensure efficient summarization without surpassing the PALM API's query limit (three queries per minute), the platform intelligently breaks down lengthy PDFs into manageable pages, summarizing each individually.
+Recognizing the ubiquity of PDF documents in academic settings, SmartEd offers a `PDF Summarizer`. To ensure efficient summarization without surpassing the PALM API's query limit (three queries per minute), the platform intelligently breaks down lengthy PDFs into manageable pages, summarizing each individually.
 
 ## Problems Faced
 
 The development journey of SmartEd was not without its challenges. Integrating third-party APIs, especially managing rate limits, presented a significant hurdle. Additionally, ensuring the accuracy and coherence of the summarization process demanded meticulous fine-tuning of algorithms to meet the high standards set by the educational community.
+
+## Architectural Diagram
+
+<img src="preview/architecture.png" alt="Architectural Diagram"> 
+
+## WebApp Preview
+
+<img src="preview/image1.png" alt="Home page">
+<img src="preview/image2.png" alt="Features page">
+<img src="preview/image3.png" alt="Contact page">
+<img src="preview/image4.png" alt="Register page">
+<img src="preview/image5.png" alt="Dashboard Page">
 
 ## Future Scope
 
@@ -36,7 +48,7 @@ SmartEd envisions continuous growth and improvement. In the pipeline for future 
 
 ### 1. Notes to Flow Chart
 
-Expanding on the platform's capabilities, SmartEd plans to introduce a feature that converts textual notes into dynamic and interactive flow charts. This will be achieved through advanced natural language processing techniques, extracting crucial keywords and relationships.
+Expanding on the platform's capabilities, SmartEd plans to introduce a feature that converts textual notes into dynamic and interactive flow charts. This will be achieved through advanced `Natural language processing (NLP)` techniques, extracting crucial keywords and relationships.
 
 ### 2. Conversational Chat
 
