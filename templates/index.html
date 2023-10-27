@@ -324,7 +324,62 @@
             </div>
         </div>
     </section>
+    <script>
 
+        const config = {
+            apiKey: "AIzaSyCS6MzsAo9Aq6QRvRgVJ1rYyiDyCGAEsL6",
+            authDomain: "g-contact-smarted.firebaseapp.com",
+            databaseURL: "https://g-contact-smarted-default-rtdb.firebaseio.com",
+            projectId: "g-contact-smarted",
+            storageBucket: "g-contact-smarted.appspot.com",
+            messagingSenderId: "356036840004",
+            appId: "1:356036840004:web:a0bb31f5adea5de0e7ca11",
+            measurementId: "G-707Y2MG55W"
+        };
+
+        firebase.initializeApp(config);
+        var messagesRef = firebase.database().ref('messages');
+
+        document.getElementById('contactForm').addEventListener('submit', submitForm);
+
+        function submitForm(e) {
+            e.preventDefault();
+
+            var name = getInputVal('name');
+            var email = getInputVal('email');
+            var phone = getInputVal('phone');
+            var message = getInputVal('message');
+
+            saveMessage(name, email, phone, message);
+
+            document.querySelector('.alert').style.display = 'block';
+
+            setTimeout(function () {
+                document.querySelector('.alert').style.display = 'none';
+            }, 3000);
+
+            document.getElementById('contactForm').reset();
+        }
+
+        function getInputVal(id) {
+            return document.getElementById(id).value;
+        }
+
+        function saveMessage(name, email, phone, message) {
+            var newMessageRef = messagesRef.push();
+            newMessageRef.set({
+                name: name,
+                email: email,
+                phone: phone,
+                message: message
+            });
+        }
+
+
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
     <script src="static/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="static/assets/smoothscroll/smooth-scroll.js"></script>
     <script src="static/assets/ytplayer/index.js"></script>
