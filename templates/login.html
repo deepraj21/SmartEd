@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Mobirise v5.6.4, mobirise.com">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:src" content="">
+    <meta property="og:image" content="">
+    <meta name="twitter:title" content="CoreM5 Theme Startup Company Demo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="static/assets/images/logo.png" type="image/x-icon">
+    <meta name="description" content="New CoreM5 Theme HTML Template - Download Now!">
+    
+    
+    <title>SmartEd</title>
+    <link rel="stylesheet" href="static/assets/web/static/assets/mobirise-icons2/mobirise2.css">
+    <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="static/assets/dropdown/css/style.css">
+    <link rel="stylesheet" href="static/assets/socicon/css/styles.css">
+    <link rel="stylesheet" href="static/assets/theme/css/style.css">
+    <link rel="stylesheet" href="static/assets/recaptcha.css">
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css?family=Hanken+Grotesk:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Hanken+Grotesk:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap">
+    </noscript>
+    <link rel="preload" as="style" href="static/assets/mobirise/css/mbr-additional.css">
+    <link rel="stylesheet" href="static/assets/mobirise/css/mbr-additional.css" type="text/css">
+    <style>
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- <div class="container">
+        <h1>Login</h1>
+        <form method="POST" action="{{ url_for('login') }}">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="{{ url_for('register') }}">Register</a></p>
+    </div> -->
+
+    <section data-bs-version="5.1" class="form form1 cid-tw6EIudEv3" id="form01-4" style="background-image: url(/static/assets/images/sourcegraph-vs-code-extension.png);">
+    
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mbr-section-title align-left mbr-fonts-style mb-3 display-1" style="color: aliceblue;">Login</h2><br><br><br>
+                </div>
+                <div class="col-lg-12 mx-auto form-border mbr-form" data-form-type="formoid">
+    
+                    <form method="POST" action="{{ url_for('login') }}" class="mbr-form form-with-styler">
+                        
+                        <div class="dragArea row">
+                            <div class="col-lg-6 col-md-12 col-sm-12 form-group mb-3" data-for="name">
+                                <input placeholder="Username" 
+                                    class="form-control display-7" type="text" id="username" name="username" required>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 form-group mb-3" data-for="email">
+                                <input placeholder="Password" 
+                                    class="form-control display-7" type="password" id="password" name="password" required>
+                            </div>
+                            
+                            <div class="col-auto" style="margin-left: 420px; margin-top: 30px;"><button type="submit"
+                                    class="w-100 w-100 btn btn-primary display-7">Login</button></div>
+                        </div>
+                    </form>
+                    <p class="mbr-section-cardtitle mbr-fonts-style mb-3 display-3" style="color: aliceblue;">Don't have an account? <a style="color:whitesmoke;" href="{{ url_for('register') }}">Register</a></p>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="static/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="static/assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="static/assets/ytplayer/index.js"></script>
+    <script src="static/assets/dropdown/js/navbar-dropdown.js"></script>
+    <script src="static/assets/playervimeo/vimeo_player.js"></script>
+    <script src="static/assets/theme/js/script.js"></script>
+    <script src="static/assets/formoid.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Site made with Mobirise Website Builder v5.6.4, https://mobirise.com -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Mobirise v5.6.4, mobirise.com">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:src" content="">
+    <meta property="og:image" content="">
+    <meta name="twitter:title" content="CoreM5 Theme Startup Company Demo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="static/assets/images/logo.png" type="image/x-icon">
+    <meta name="description" content="New CoreM5 Theme HTML Template - Download Now!">
+
+
+    <title>SmartEd</title>
+    <link rel="stylesheet" href="static/assets/web/static/assets/mobirise-icons2/mobirise2.css">
+    <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="static/assets/dropdown/css/style.css">
+    <link rel="stylesheet" href="static/assets/socicon/css/styles.css">
+    <link rel="stylesheet" href="static/assets/theme/css/style.css">
+    <link rel="stylesheet" href="static/assets/recaptcha.css">
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css?family=Hanken+Grotesk:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Hanken+Grotesk:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap">
+    </noscript>
+    <link rel="preload" as="style" href="static/assets/mobirise/css/mbr-additional.css">
+    <link rel="stylesheet" href="static/assets/mobirise/css/mbr-additional.css" type="text/css">
+    <style>
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <section data-bs-version="5.1" class="corem5 features7 cid-tw6EDuQPJl" id="features07-2">
+    
+        <div class="container">
+    
+            <div class="col-12">
+                <h1 class="mbr-section-maintitle mbr-fonts-style pb-5 mb-5 display-2"><strong>Welcome to the Dashboard, {{ username }}!</strong>
+                </h1>
+    
+            </div>
+            <div class="row item ">
+                <div class="col-12 col-md col-lg-5">
+                    <h5 class="mbr-section-title mbr-fonts-style mb-5 display-5"><strong>VIDEO SUMMARIZER:</strong>
+                    </h5>
+                </div>
+               
+                <div class="col-lg-12 mx-auto form-border mbr-form" data-form-type="formoid">
+                
+                    <form method="POST" action="{{ url_for('dashboard') }}" class="mbr-form form-with-styler">
+                
+                        <div class="dragArea row">
+                            <div data-for="name">
+                                <input placeholder="Enter the Youtube video URL" class="form-control display-7" id="video_url" name="video_url"
+                                    required>
+                            </div>
+                          
+                
+                            <div class="col-auto" style="margin-left: 550px; margin-top: 30px;"><button type="submit"
+                                    class="w-100 w-100 btn btn-primary display-7">Summarize</button></div>
+                        </div>
+                       
+                    </form>
+                    <p class="mbr-section-cardtitle mbr-fonts-style mb-3 display-3" style="color: aliceblue;">{{response}}</p>
+                    <div class="col-12">
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row item">
+                <div class="col-12 col-md col-lg-5">
+                    <h5 class="mbr-section-title mbr-fonts-style mb-5 display-5"><strong>PDF NOTES SUMMARIZER:</strong>
+                    </h5>
+                </div>
+                <div class="col-lg-12 mx-auto form-border mbr-form" data-form-type="formoid">
+                
+                    <form method="POST" action="#" class="mbr-form form-with-styler">
+                
+                        <div class="dragArea row">
+                            <div data-for="name">
+                                <input placeholder="Enter the Youtube video URL" class="form-control display-7" id="video_url" type="file"
+                                    name="video_url" required>
+                            </div>
+                
+                
+                            <div class="col-auto" style="margin-left: 550px; margin-top: 30px;"><button type="submit"
+                                    class="w-100 w-100 btn btn-primary display-7">Summarize</button></div>
+                        </div>
+                
+                    </form>
+                    <p class="mbr-section-cardtitle mbr-fonts-style mb-3 display-3" style="color: aliceblue;">{{response}}</p>
+                    <div class="col-12">
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row item align-left">
+                <div class="col-12 col-md col-lg-5">
+                    <h5 class="mbr-section-title mbr-fonts-style mb-5 display-5"><strong>HANDWRITTEN NOTES TO TEXT:</strong>
+                    </h5>
+                </div>
+                <div class="col-lg-12 mx-auto form-border mbr-form" data-form-type="formoid">
+            
+                    <form method="POST" action="#" class="mbr-form form-with-styler">
+            
+                        <div class="dragArea row">
+                            <div data-for="name">
+                                <input placeholder="Enter the Youtube video URL" class="form-control display-7" id="video_url"
+                                    type="file" name="video_url" required>
+                            </div>
+            
+            
+                            <div class="col-auto" style="margin-left: 550px; margin-top: 30px;"><button type="submit"
+                                    class="w-100 w-100 btn btn-primary display-7">Download</button></div>
+                        </div>
+            
+                    </form>
+                    <p class="mbr-section-cardtitle mbr-fonts-style mb-3 display-3" style="color: aliceblue;">{{response}}</p>
+                    <div class="col-12">
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row item align-left">
+                <div class="col-12 col-md col-lg-5">
+                    <h5 class="mbr-section-title mbr-fonts-style mb-5 display-5"><strong>FLOWCHART MAKER:</strong>
+                    </h5>
+                </div>
+                <div class="col-lg-12 mx-auto form-border mbr-form" data-form-type="formoid">
+            
+                    <form method="POST" action="#" class="mbr-form form-with-styler">
+            
+                        <div class="dragArea row">
+                            <div data-for="name">
+                                <input placeholder="Enter the Youtube video URL" class="form-control display-7" id="video_url"
+                                    type="file" name="video_url" required>
+                            </div>
+            
+            
+                            <div class="col-auto" style="margin-left: 550px; margin-top: 30px;"><button type="submit"
+                                    class="w-100 w-100 btn btn-primary display-7">Generate</button></div>
+                        </div>
+            
+                    </form>
+                    <p class="mbr-section-cardtitle mbr-fonts-style mb-3 display-3" style="color: aliceblue;">{{response}}</p>
+                    <div class="col-12">
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row item align-left">
+                <div class="col-12 col-md col-lg-5">
+                    <h5 class="mbr-section-title mbr-fonts-style mb-5 display-5"><strong>NOTES READER:</strong>
+                    </h5>
+                </div>
+                <div class="col-lg-12 mx-auto form-border mbr-form" data-form-type="formoid">
+            
+                    <form method="POST" action="#" class="mbr-form form-with-styler">
+            
+                        <div class="dragArea row">
+                            <!-- <div data-for="name">
+                                <input placeholder="Enter the Youtube video URL" class="form-control display-7" id="video_url"
+                                    type="file" name="video_url" required>
+                            </div> -->
+                            <div data-for="message" class="col-lg-12 col-md-12 col-sm-12 form-group mb-3">
+                                <textarea name="message" placeholder="Message" data-form-field="message" class="form-control display-7"
+                                    id="message-form01-4"></textarea>
+                            </div>
+            
+            
+                            <div class="col-auto" style="margin-left: 550px; margin-top: 30px;"><button type="submit"
+                                    class="w-100 w-100 btn btn-primary display-7">Read Out</button></div>
+                        </div>
+            
+                    </form>
+                    <p class="mbr-section-cardtitle mbr-fonts-style mb-3 display-3" style="color: aliceblue;">{{response}}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section data-bs-version="5.1" class="corem5 footer1 cid-tw6EJ3Id6H" id="footer01-5">
+    
+        <div class="container-fluid">
+            <div class="row justify-content-end align-left">
+                <div class="col-12">
+                    <a href="mailto:deepraj21.bera@gmail.com">
+                        <h5 class="mbr-section-title mbr-fonts-style mb-5 display-1">
+                            deepraj21</h5>
+                    </a>
+                </div>
+    
+                <div class="col-lg-6 col-md-12 align-left">
+                    <div class="img">
+                        <img src="static/assets/images/logo.png">
+                    </div>
+    
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <p class="mbr-section-subtitle mbr-fonts-style mb-4 display-4">Instagram
+                        <br>Twitter<br>Whatsapp
+                        <br>Linkedin<br>
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <p class="mbr-text mbr-fonts-style display-4">Index
+                        <br>Projects
+                        <br>Clients
+                    </p>
+                    <div class="mbr-section-btn align-left"><a class="btn btn-primary-outline display-4" href="#">Get
+                            Started</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
