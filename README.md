@@ -51,6 +51,14 @@ Install dependencies: pip install -r requirements.txt
 
 Run the application: flask run or python app.py
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Special thanks to the creators of the PALM API for their groundbreaking work.
+
 ## Conclusion
 
 In conclusion, SmartEd represents a paradigm shift in educational technology. By making the learning process more efficient and accessible, SmartEd endeavors to empower students on their educational journey. The development team invites users to join in this educational revolution, providing valuable feedback to further refine and enhance SmartEd's capabilities. Together, we can make learning smarter, easier, and more enjoyable.
