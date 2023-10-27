@@ -42,14 +42,30 @@ Expanding on the platform's capabilities, SmartEd plans to introduce a feature t
 
 SmartEd aims to implement a Conversational Chat feature, allowing users to engage in dialogue with the platform. This functionality will answer questions related to uploaded documents, provide additional context, and offer clarification on study materials.
 
-## Installation
+## Setup and Contribution
 
-Clone the repository: git clone https://github.com/deepraj21/SmartEd.git
-Install dependencies: pip install -r requirements.txt
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/deepraj21/SmartEd.git
+   ```
 
-## Usage
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Run the application: flask run or python app.py
+3. **Google AI API Key:**
+   Obtain your Google AI API key and configure it in the application:
+   ```python
+   palm.configure(api_key='YOUR_GOOGLE_API_KEY')
+   ```
+
+4. **Run the Application:**
+   ```bash
+   python app.py
+   ```
+
+   Visit `http://localhost:5000` in your web browser.
 
 ## License
 
