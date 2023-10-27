@@ -42,6 +42,15 @@ Expanding on the platform's capabilities, SmartEd plans to introduce a feature t
 
 SmartEd aims to implement a Conversational Chat feature, allowing users to engage in dialogue with the platform. This functionality will answer questions related to uploaded documents, provide additional context, and offer clarification on study materials.
 
+## Installation
+
+Clone the repository: git clone https://github.com/deepraj21/SmartEd.git
+Install dependencies: pip install -r requirements.txt
+
+## Usage
+
+Run the application: flask run or python app.py
+
 ## Conclusion
 
 In conclusion, SmartEd represents a paradigm shift in educational technology. By making the learning process more efficient and accessible, SmartEd endeavors to empower students on their educational journey. The development team invites users to join in this educational revolution, providing valuable feedback to further refine and enhance SmartEd's capabilities. Together, we can make learning smarter, easier, and more enjoyable.
